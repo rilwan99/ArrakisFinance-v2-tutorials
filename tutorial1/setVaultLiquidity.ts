@@ -222,6 +222,8 @@ async function main() {
   };
 
   console.log("rebalance tx...");
+  console.log("liquidityA[0]: ", liquidityA[0]);
+  console.log("liquidityB[0]: ", liquidityB[0]);
   const gasEstimate = await vault.estimateGas.rebalance({
     burns: [],
     mints: [

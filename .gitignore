@@ -35,3 +35,4 @@ dist
 # vault files
 .tutorial1.*
 
+yarn.lock

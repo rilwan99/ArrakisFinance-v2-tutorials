@@ -1,5 +1,5 @@
 {
-  "name": "@arrakisfi/v2-core",
+  "name": "@arrakisfi/tutorial1",
   "scripts": {
     "build": "yarn compile && npx tsc",
     "compile": "npx hardhat compile --force",
@@ -40,7 +40,7 @@
     "eslint-config-prettier": "8.3.0",
     "eslint-plugin-prettier": "4.0.0",
     "ethers": "5.6.9",
-    "hardhat": "2.9.9",
+    "hardhat": "2.12.6",
     "hardhat-deploy": "0.11.10",
     "hardhat-gas-reporter": "^1.0.9",
     "husky": "8.0.1",
